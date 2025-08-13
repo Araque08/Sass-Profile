@@ -1,0 +1,58 @@
+@use './personal';
+@use './variables';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.personal-information{
+    height: 40vh;
+    padding: 20PX;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.personal-information ul{
+    display: flex;
+    width: 200px;
+}
+
+.personal-information ul li{
+    margin: 6px;
+    margin-top: 20px;    
+}
+
+.personal-information img{
+    border-radius: 50%;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.profesional-profile{
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profesional-profile p{
+    padding: 15px;
+}
+
+.skills{
+    margin-top: 30px;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
