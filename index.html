@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo con SASS</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
 </head>
+
 <body>
     <main class="container">
-        <h1>Bienvenidos</h1>
+
+
         <section class="personal-information container">
-            <img src="https://i.pinimg.com/originals/44/48/2b/44482b0788436b607f176b6ac2c128f3.png" alt="">
-            <h2>Bob esponja</h2>
-            <p>bobesponja18@gmail.com</p>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">LinkedIn</a></li>
-            </ul>
+            <div class="information-content">
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQFNPZCPlX8Guw/profile-displayphoto-scale_200_200/B56ZfxLBmPHQAY-/0/1752097895839?e=2147483647&v=beta&t=bthjWuHDg39pqS7mOiPlxid2ic_tV3bmA6leCp25aAI" alt="">
+                <div class="information-profile">
+                    <h1>Sebastian Felipe Araque Perez</h1>
+                    <p>Estudiante Ingeniero de software</p>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href="https://www.facebook.com/sebastian.araque.751121" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                            <li><a href="https://www.linkedin.com/in/sebastian-felipe-araque-perez-62629b1ab/" target="_blank"><i
+                                        class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-data">
+                <h2>Datos de contacto</h2>
+                <ul class="contact-list">
+                    <li><a href="mailto:sebaspipe18@gmail.com?subject=Asunto del correo&body=Cuerpo del mensaje"><i class="fa-solid fa-envelope"></i>sebaspipe18@gmail.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i>(+57) 3245614442</a></li>
+                    <li><a href="https://araque08.com/" target="_blank"><i class="fa-solid fa-globe"></i>www.araque08.com</a></li>
+                </ul>
+            </div>
         </section>
+
+
         <section class="profesional-profile container">
             <h2>Perfil Profesional</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, distinctio odit, nostrum culpa officiis est tempore eaque non iusto quos explicabo consequuntur eligendi aspernatur recusandae officia sunt ipsa! Est, blanditiis.</p>
+            <p>Soy estudiante de octavo semestre de Ingeniería de Software en la Universidad Manuela Beltrán, con
+                formación técnica en desarrollo de software por el SENA. Tengo conocimientos sólidos en HTML, CSS, PHP y
+                JavaScript, así como experiencia académica desarrollando un sistema ERP web y sitios funcionales. Me
+                destaco por ser responsable, aprender rápido y tener interés en aplicar mis habilidades en entornos
+                reales. Actualmente busco una oportunidad de práctica profesional en desarrollo web o áreas afines..</p>
         </section>
-        <section class="skills container">
+
+        
+        <section class="skills-section container">
             <h2>Habilidades</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, cum.</p>
-            <div class="different-skills">
-                <div class="programming">
+            <p>Construyo software claro, confiable y escalable, con calidad automatizada y trabajo en equipo.</p>
+            <div class="skill-column">
+                <div class="skills">
+                    <h3>Skills Técnicos</h3>
                     <ul>
-                        <i>Skill1</i>
-                        <i>Skill2</i>
-                        <i>Skill3</i>
+                        <li>Estructuras de datos y algoritmos</li>
+                        <li>Diseño y arquitectura (POO, SOLID, patrones, APIs REST)</li>
+                        <li>Bases de datos (SQL/NoSQL)</li>
+                        <li>Testing automatizado y CI/CD </li>
                     </ul>
                 </div>
-                <div class="social">
+                <div class="skills">
+                    <h3>Skills Blandos</h3>
                     <ul>
-                        <i>Skill1</i>
-                        <i>Skill2</i>
-                        <i>Skill3</i>
+                        <li>Comunicación clara</li>
+                        <li>Resolución de problemas / pensamiento crítico</li>
+                        <li>Trabajo en equipo y colaboración</li>
+                        <li>Ownership y proactividad</li>
                     </ul>
                 </div>
             </div>
-
         </section>
+
 
     </main>
 </body>
+
 </html>
