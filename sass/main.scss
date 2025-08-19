@@ -1,5 +1,7 @@
-@use './personal';
 @use './variables';
+@use './form';
+@use './personal';
+@use './skills';
 
 *{
     padding: 0;
@@ -11,80 +13,13 @@
 }
 
 body{
-    background-color: rgb(12, 126, 126);
-    color: white;
+    background-color: variables.$color-primary;
+    color: variables.$color-light;
+    font-family: variables.$font-base;
 }
 
 a{
-    color: rgb(191, 172, 139);
-}
-
-.container{
-    max-width: 1200px;
-    height: auto;
-    margin: auto;
-    background-color: rgb(0, 39, 45);
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
-}
-
-/* INFORMACION PERSONAL */
-
-.personal-information{
-    height: 45vh;
-    padding: 40px;
-    margin-bottom: 10px;
-}
-
-.personal-information ul li{
-    margin: 6px;
-    margin-top: 20px;    
-}
-
-.personal-information img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-}
-
-.profesional-profile{
-    height: 10vh;
-    padding: 10px;
-}
-
-.information-content{
-    width: 100%;
-    display: flex;  
-}
-
-.information-profile{
-    padding: 20px;
-    padding-left: 30px;
-}
-
-.information-profile h1{
-    font-size: 45px;
-    margin-bottom: 6px;
-}
-
-.information-profile p{
-    font-size: 25px;
-}
-
-.contact-data{
-    padding: 40px;
-}
-
-.contact-data .contact-list{
-    display: flex;
-}
-
-.contact-data h2{
-    font-size: 30px;
-}
-
-.social-media ul{
-    display: flex;
-    width: 200px;
+    color: variables.$color-accent;
 }
 
 i{
@@ -93,8 +28,20 @@ i{
 
 a:hover{
     font-size: 16px;
-    color: white;
+    color: variables.$color-light;
 }
+
+.container{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: variables.$color-secondary;
+    box-shadow: variables.$shadow-base;
+    margin-bottom: 10px;
+}
+
+/* INFORMACION PERSONAL */
+
 
 /* PERFIL PROFESIONAL */
 
@@ -110,34 +57,8 @@ a:hover{
 }
 
 
-/* HABILIDADES */
 
-.skills-section{
-    margin-top: 10px;
-    height: 40vh;
-    padding: 80px;  
-}
 
-.skill-column{
-    display: flex;                                                               
-    justify-content: baseline;
-    text-align: left;
-}         
-
-.skills{
-    width: 50%;
-    padding: 15px;
-    margin-top: 15px;
-}
-
-.skills ul{
-    padding: 10px;
-}
-
-.skills li{
-    display: block;
-    margin: 5px;
-}
 
 
 

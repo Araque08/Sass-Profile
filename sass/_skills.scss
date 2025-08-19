@@ -1,0 +1,27 @@
+@use './variables';
+
+.skills-section{
+    padding: 80px;  
+
+    .skill-column{
+        display: flex;                                                               
+        justify-content: baseline;
+        text-align: left;
+    }         
+
+    .skills{
+        width: 50%;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .skills ul{
+        padding: 10px;
+    }
+
+    .skills li{
+        display: block;
+        margin: 5px;
+    }
+
+}

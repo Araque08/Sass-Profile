@@ -1,0 +1,62 @@
+@use './variables';
+
+.formulario-section{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    position: relative;
+
+    h1{
+        font-size: variables.$font-size-title;
+        padding: 10px;
+    }
+
+    .formulario{
+        min-width: 380px;   
+        max-width: 50%;
+        height: 95vh;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 15px;
+        box-shadow: variables.$shadow-card;
+    }
+
+    .box{
+        margin: 20px;
+    }
+
+    .box label{
+        font-size: 20px;
+    }
+
+    .box input{
+        min-width: 100%;
+        max-width: 50%;
+        height: 35px;
+        border-radius: 15px;
+        padding-left: 10px;
+    }
+
+    .terminos{
+        padding-left: 20px;
+    }
+
+    .btnEnviar{
+        height: 100px;
+        position: relative;
+    }
+
+    .btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 200px;
+        height: 35px; 
+    }
+
+}
+
