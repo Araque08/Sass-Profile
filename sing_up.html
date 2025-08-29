@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Registro | Formulario con Validaciones</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
@@ -69,9 +71,11 @@
                             condiciones</a></label>
                 </div>
 
+                <div id="recap" class="g-recaptcha" data-sitekey="6LeSsrYrAAAAAKlfvXqmKeTyQVXdg8rPKHJl7gJw"></div>
+
                 <!-- Enviar -->
                 <div class="btnEnviar">
-                    <button id="submitBtn" type="submit" class="btn" disabled>Enviar</button>
+                    <button id="submitBtn" type="submit" class="btn">Enviar</button>
                 </div>
             </form>
         </section>

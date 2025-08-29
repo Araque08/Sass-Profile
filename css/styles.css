@@ -18,6 +18,9 @@
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+.formulario-section #recap {
+  margin: 20px 20px;
+}
 .formulario-section .box {
   margin: 20px;
 }
